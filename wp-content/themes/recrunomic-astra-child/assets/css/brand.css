@@ -1,0 +1,8 @@
+:root{--recru-green:#2E8B57;--recru-ivory:#FAF9F6;--recru-gold:#D4AF37;--recru-charcoal:#333333}
+.btn-primary{background:var(--recru-green);color:#fff;border-radius:10px;padding:.9rem 1.2rem;display:inline-block}
+.btn-outline{border:2px solid var(--recru-green);color:var(--recru-green);background:transparent;border-radius:10px;padding:.8rem 1rem;display:inline-block}
+.badge-gold{background:var(--recru-gold);color:#1a1a1a;border-radius:999px;padding:.2rem .6rem;display:inline-block}
+.section{padding:4rem 0}
+.hero{padding:5rem 0;background:linear-gradient(180deg,#ffffff 0%,#f6f6f3 100%)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:#fff;border-radius:10px;padding:1.2rem;box-shadow:0 2px 10px rgba(0,0,0,.06)}
