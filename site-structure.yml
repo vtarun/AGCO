@@ -1,0 +1,111 @@
+site:
+  name: Recrunomic – Smart HR & Recruitment Solutions
+  brand:
+    colors:
+      green: "#2E8B57"
+      ivory: "#FAF9F6"
+      gold: "#D4AF37"
+      charcoal: "#333333"
+  navigation:
+    - label: What We Offer
+      href: /#what-we-offer
+    - label: Who We Serve
+      href: /#who-we-serve
+    - label: Why Recrunomic
+      href: /#why-recrunomic
+    - label: Resources
+      href: /resources/
+    - label: About Us
+      href: /about/
+    - label: Contact
+      href: /contact/
+  hero:
+    heading: HR & Recruitment Services that Empower Your Business
+    subheading: Hiring. Onboarding. Payroll support. Compliance. At Recrunomic, we simplify HR so you can focus on growth. Whether you need quick answers or end-to-end solutions, we’re here for you.
+    ctas:
+      - label: Get a Quote
+        type: primary
+        href: /contact/#quote
+      - label: Book a Consultation
+        type: outline
+        href: /contact/#consultation
+  sections:
+    - id: what-we-offer
+      title: What We Offer
+      cards:
+        - title: Recruitment Solutions
+          bullets:
+            - End-to-end hiring support: sourcing, screening, and selection
+            - Job postings across multiple platforms for maximum visibility
+            - Access to a pre-screened talent pool
+            - Virtual interview coordination and assessments
+        - title: HR Advisory & Compliance
+          bullets:
+            - Employee handbook creation & policy drafting
+            - Labor law compliance (FLSA, Shops & Establishment, Maternity Benefit, PF/ESI, etc.)
+            - Proactive compliance alerts
+            - Employer & employee training modules (POSH, workplace ethics, etc.)
+            - Legal assistance through partnered experts
+        - title: Payroll & Employee Benefits Support
+          bullets:
+            - Payroll processing (setup, calculations, compliance filing)
+            - Salary structuring & tax optimization
+            - Support for employee benefits: health, wellness, gratuity, PF, and retirement plans
+            - Partner tie-ups for group insurance & EAPs
+        - title: Talent & Performance Management
+          bullets:
+            - Structured onboarding programs
+            - Goal setting & performance evaluation frameworks
+            - Leadership training & employee engagement initiatives
+            - Retention strategies and career progression planning
+    - id: who-we-serve
+      title: Who We Serve
+      bullets:
+        - Startups – Build your HR foundation from day one
+        - SMEs – Streamline compliance, payroll & hiring without extra overhead
+        - Growing Enterprises – Scale with HR systems and strategic workforce planning
+        - Large Enterprises & Corporates – Comprehensive HR solutions for large teams and maximum workforce capacity
+        - Industry Leaders & Blue-Chip Companies – Trusted, enterprise-grade HR support tailored for complex organizations
+        - Manufacturing Sector – Specialized HR, compliance, and workforce management for plants, factories, and shop floors
+    - id: why-recrunomic
+      title: Why Recrunomic
+      badges:
+        - End-to-end HR partner – from hiring to exit formalities
+        - Tailored solutions for small, mid-sized & growing businesses
+        - Expert guidance on labor laws & compliance
+        - Affordable, scalable services compared to in-house HR overhead
+        - Technology-driven recruitment and HR automation tools
+    - id: resources
+      title: Resources
+      ctas:
+        - label: Download Free HR Guide
+          href: /resources/guide.pdf
+    - id: about
+      title: About Us
+      text: >-
+        At Recrunomic, we believe HR is more than policies and payroll—it’s about building strong organizations through people. Our mission is to simplify HR for businesses of all sizes and help them attract, retain, and grow top talent.
+    - id: get-started
+      title: Get Started
+      ctas:
+        - label: Get Pricing
+          href: /pricing/
+        - label: Schedule a Call
+          href: /contact/
+  footer:
+    quickLinks:
+      - label: Services
+        href: /#what-we-offer
+      - label: Resources
+        href: /resources/
+      - label: Contact
+        href: /contact/
+      - label: Privacy Policy
+        href: /privacy-policy/
+    social:
+      - label: LinkedIn
+        href: https://www.linkedin.com/
+      - label: X
+        href: https://x.com/
+      - label: YouTube
+        href: https://www.youtube.com/
+    copyright: "© 2025 Recrunomic. All rights reserved."

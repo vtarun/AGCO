@@ -1,0 +1,52 @@
+/*
+Theme Name: Recrunomic Astra Child
+Theme URI: https://recrunomic.com/
+Author: Recrunomic
+Template: astra
+Description: Child theme for Recrunomic using Astra + Elementor.
+Version: 1.0.0
+Text Domain: recrunomic-astra-child
+*/
+
+/* Brand tokens */
+:root {
+  --recru-green: #2E8B57; /* Emerald Green */
+  --recru-ivory: #FAF9F6; /* Ivory / Warm Beige */
+  --recru-gold:  #D4AF37; /* Gold / Mustard Accent */
+  --recru-charcoal: #333333; /* Charcoal Gray */
+
+  --container-max: 1200px;
+  --radius: 10px;
+  --shadow-sm: 0 2px 10px rgba(0,0,0,.06);
+}
+
+/* Utilities */
+.u-container { max-width: var(--container-max); margin-inline: auto; padding: 0 1rem; }
+.u-btn { display: inline-block; padding: .9rem 1.2rem; border-radius: var(--radius); text-decoration: none; font-weight: 600; }
+.u-btn-primary { background: var(--recru-green); color: white; }
+.u-btn-outline { border: 2px solid var(--recru-green); color: var(--recru-green); background: transparent; }
+.u-badge { display: inline-block; padding: .25rem .6rem; border-radius: 999px; font-size: .8rem; background: var(--recru-gold); color: #1a1a1a; }
+
+/* Global typography/colors */
+body { color: var(--recru-charcoal); background: var(--recru-ivory); }
+a { color: var(--recru-green);}
+a:hover { color: #246f46; }
+
+/* Header */
+.site-header { box-shadow: var(--shadow-sm); background: white; }
+
+/* Hero */
+.hero { padding: 5rem 0; background: linear-gradient(180deg, #ffffff 0%, #f6f6f3 100%); }
+.hero h1 { font-size: clamp(2rem, 3vw + 1rem, 3.2rem); margin-bottom: .7rem; }
+.hero p { font-size: 1.05rem; max-width: 60ch; }
+.hero-cta { display: flex; gap: .8rem; margin-top: 1.3rem; flex-wrap: wrap; }
+
+/* Sections */
+.section { padding: 4rem 0; }
+.section h2 { font-size: 2rem; margin-bottom: 1rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 1rem; }
+.card { background: white; border-radius: var(--radius); padding: 1.2rem; box-shadow: var(--shadow-sm); }
+
+/* Footer */
+.site-footer { background: #111; color: #ddd; padding: 2rem 0; }
+.site-footer a { color: #ddd; }
